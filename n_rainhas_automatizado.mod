@@ -1,4 +1,4 @@
-# n_rainhas_automatizado.mod
+# n_rainhas_automatizado.mod 
 # Problema das nrainha Rainhas
 # execução com arquivo dat:
 # glpsol --math n_rainhas_automatizado.mod --data n_rainhas_dados.dat -o resultado.txt
@@ -11,7 +11,7 @@ param nrainha;
 
 # definição de um conjunto
 
-set LINHAS := 2..nrainha; # LINHAS = {1, 2, 3, 4, 5, 6, 7, 8}
+set LINHAS :=2..nrainha; # LINHAS = {1, 2, 3, 4, 5, 6, 7, 8,}
 set COLUNAS := 1..nrainha; # COLUNAS = {1, 2, 3, 4, 5, 6, 7, 8}
 
 /* VARIÁVEIS DE DECISÃO */
