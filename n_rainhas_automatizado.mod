@@ -10,7 +10,8 @@
 param nrainha;
 
 # definição de um conjunto
-set LINHAS := 4..nrainha; # LINHAS = {1, 2, 3, 4, 5, 6, 7, 8}
+
+set LINHAS := 2..nrainha; # LINHAS = {1, 2, 3, 4, 5, 6, 7, 8}
 set COLUNAS := 1..nrainha; # COLUNAS = {1, 2, 3, 4, 5, 6, 7, 8}
 
 /* VARIÁVEIS DE DECISÃO */
